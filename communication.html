@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+    <title>Communication</title>
+</head>
+<body>
+    <header>
+        <!-- nav>ul>li*4>a[href="#"]>lorem1 -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Main Page</a></li>
+                <li><a href="./about-me.html">About Me</a></li>
+                <li><a href="./rehabilition-center.html">Rehabilition Center</a></li>
+                <li><a href="./communication.html">Communication</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <h1>Contact</h1>
+        <p>To reach us:</p>
+        <address>
+            <p>Email: info@ourcompany.com</p>
+            <p>Phone: +90 123 456 78 90</p>
+        </address>
+    </section>
+    
+    <form>
+        <p><strong>Please fill out the information below. Required fields are marked with *.</strong></p>
+      
+        <p><select>
+          <option selected="selected" value="1">Gender</option>
+          <option value="2">Male</option>
+          <option value="3">Female</option>
+          <option value="4">Prefer not to say</option>
+        </select></p>
+      
+        <p>
+        <label>First Name*</label>
+        <input type="text" name="name" required="">
+        </p>
+      
+        <p>
+        <label>Last Name*</label>
+        <input type="text" name="surname" required="">
+        </p>
+      
+        <p>
+        <label>Email*</label>
+        <input type="email" name="email" required="">
+        </p>
+      
+        <p>
+        <label>Request Type:*</label>
+        <label><input checked="checked" name="type" type="radio" value="complaint" />Complaint </label> 
+        <label><input name="type" type="radio" value="support" /> Support</label> 
+        <label><input name="type" type="radio" value="other" /> Other</label>
+        </p>
+      
+        <p>
+        <label>Message*</label>
+        <textarea rows="6" required=""></textarea>
+        </p>
+      
+        <p>
+        <label>
+        <input type="checkbox" id="checkbox" value="terms">
+        I have read and agree to the <a href="./terms-of-service.html" target="_blank">Terms of Service</a>
+        </label>
+        </p>
+      
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+    
+    <footer>
+        <p>&copy; 2024 - All rights reserved.</p>
+    </footer>
+</body>
+</html>
